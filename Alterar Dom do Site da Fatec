@@ -1,0 +1,23 @@
+GARCIA ATT
+
+function mudarCores(back, corP, corH1, corH2, corH3) {
+ document.body.style.backgroundColor = back;
+
+ let titulos = document.querySelectorAll("p");
+ for (let i = 0; i<titulos.length; i ++){
+ titulos[i].style.color = corP;}
+
+ let titulos1 = document.querySelectorAll("h1");
+ for (let i = 0; i<titulos1.length; i ++){
+ titulos1[i].style.color = corH1;}
+
+let titulos2 = document.querySelectorAll("h2");
+ for (let i = 0; i<titulos2.length; i ++){
+ titulos2[i].style.color = corH2;}
+
+let titulos3 = document.querySelectorAll("h3");
+ for (let i = 0; i<titulos3.length; i ++){
+ titulos3[i].style.color = corH3;}
+}
+
+mudarCores("black", "red", "green", "blue", "pink");
