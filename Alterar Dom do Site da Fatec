@@ -1,4 +1,5 @@
 GARCIA ATT
+//função que puxa backgrounds e titulos alterando suas cores
 
 function mudarCores(back, corP, corH1, corH2, corH3) {
  document.body.style.backgroundColor = back;
